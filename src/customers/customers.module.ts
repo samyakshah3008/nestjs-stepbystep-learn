@@ -17,6 +17,7 @@ export class CustomersModule implements NestModule {
         path: '/api/customers/search/:id',
         method: RequestMethod.GET
       }, // in exclude provide full url
+      // Hello World this is Soham! WOWWW such an am,azing experience! 
     )
     .forRoutes(CustomersController)
   } // or can do it for entire controller as well example customerscontroller

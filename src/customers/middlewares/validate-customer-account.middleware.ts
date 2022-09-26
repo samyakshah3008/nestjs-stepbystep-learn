@@ -13,3 +13,4 @@ export class ValidateCustomerAccountMiddleware implements NestMiddleware {
         }
     }
 }
+
